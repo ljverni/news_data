@@ -1,4 +1,4 @@
-# Azure Data Pipeline
+# News Data
 
 #### Overview
 Data is extracted in batches from the News API. The data is then loaded into an Azure Blob container, and finally moved to an Azure SQL landing table. ETL jobs are written using Python and DBT and scheduled in Cron.  
@@ -36,3 +36,4 @@ The CI step runs tests (PyTest) and lint checks. CD was initially set to push ch
 
 ## Next steps:
 Orchestrate ETL via Kubernetes and Apache Airflow.
+
